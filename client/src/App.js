@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<UsernamePrompt />} />
-        <Route path="/chat" element={ChatPage}></Route>
+        <Route path="/chat" element={<ChatPage/>}></Route>
       </Routes>
     </Router>
   );
